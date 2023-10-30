@@ -3,9 +3,14 @@
 
 #include "CLI/CLI.hpp"
 #include "config.h"
+int foo;
+int data = 100;
 
 auto main(int argc, char **argv) -> int
 {
+   fmt::print("The value of foo {} address of foo {}\n ", foo, fmt::ptr(&foo));
+    
+    
     auto count{20};
     /**
      * CLI11 is a command line parser to add command line options
