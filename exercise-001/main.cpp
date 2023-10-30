@@ -5,6 +5,36 @@
 #include "config.h"
 int foo;
 int data = 100;
+class Vector
+{
+    std::vector<int>foo(42);
+    foo[34] = 4711;
+    struct linkedList{
+        LinkedList* pNext;
+        int data;
+
+    };
+    public:
+    Vector(int size){
+    pData = new int [size];
+    };
+
+    private:
+    int* pData;
+};
+
+vVector(){
+delete[] pData;
+}
+
+at(index, value){
+
+}at(index)
+
+
+
+
+
 
 auto main(int argc, char **argv) -> int
 {
